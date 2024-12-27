@@ -1,9 +1,10 @@
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<!--<base href="/" />-->
+		<!--<base href="" />-->
 	</head>
 	<title>Time.Tree</title>
 	<body class="flex-row">
@@ -28,8 +29,9 @@
 				<div class="flex-align-row-bottom top-nav-item">
 					<search class="global">
 						<form action="./search">
-						<input type="search" id="global-search" name="global-search" type="text" placeholder="Find an activity, date, project, or energy level" required />
-						<button type="submit" class="search">GO!</button>
+							<input type="search" id="global-search" name="global-search" type="text" placeholder="Find an activity, date, project, or energy level" required />
+							<button type="submit" class="search">Go!</button>
+						</form>
 					</search>
 				</div>
 				<div id="login">
@@ -39,31 +41,24 @@
 					</ul>
 				</div>
 			</nav>
-			<section class="landing-section flex-col">
-				<p>d main content areas with a wrapper that includes the two. The div with a class of .wrapper also needs the display: flex; but the flex-direction is different than above. Because the sidebar and content areas are next to each other rather than stacked, the flex-direction is row, which is the opposite of what was done in the container above.
-				</p>
-				<p>d main content areas with a wrapper that includes the two. The div with a class of .wrapper also needs the display: flex; but the flex-direction is different than above. Because the sidebar and content areas are next to each other rather than stacked, the flex-direction is row, which is the opposite of what was done in the container above.
-				</p>
-				<p>d main content areas with a wrapper that includes the two. The div with a class of .wrapper also needs the display: flex; but the flex-direction is different than above. Because the sidebar and content areas are next to each other rather than stacked, the flex-direction is row, which is the opposite of what was done in the container above.
-				</p>
-				<p>d main content areas with a wrapper that includes the two. The div with a class of .wrapper also needs the display: flex; but the flex-direction is different than above. Because the sidebar and content areas are next to each other rather than stacked, the flex-direction is row, which is the opposite of what was done in the container above.
-				</p>
-				<p>d main content areas with a wrapper that includes the two. The div with a class of .wrapper also needs the display: flex; but the flex-direction is different than above. Because the sidebar and content areas are next to each other rather than stacked, the flex-direction is row, which is the opposite of what was done in the container above.
-				</p>
-				<p>d main content areas with a wrapper that includes the two. The div with a class of .wrapper also needs the display: flex; but the flex-direction is different than above. Because the sidebar and content areas are next to each other rather than stacked, the flex-direction is row, which is the opposite of what was done in the container above.
-				</p>
-				<p>d main content areas with a wrapper that includes the two. The div with a class of .wrapper also needs the display: flex; but the flex-direction is different than above. Because the sidebar and content areas are next to each other rather than stacked, the flex-direction is row, which is the opposite of what was done in the container above.
-				</p>
-				<p>d main content areas with a wrapper that includes the two. The div with a class of .wrapper also needs the display: flex; but the flex-direction is different than above. Because the sidebar and content areas are next to each other rather than stacked, the flex-direction is row, which is the opposite of what was done in the container above.
-				</p>
-				<p>d main content areas with a wrapper that includes the two. The div with a class of .wrapper also needs the display: flex; but the flex-direction is different than above. Because the sidebar and content areas are next to each other rather than stacked, the flex-direction is row, which is the opposite of what was done in the container above.
-				</p>
+			<section id="landing-fill" class="landing-section flex-col">
+				<div class="center flex-col">
+					<img src="img/tt-logo.png" class="logo-lrg">
+				</div>
+				<div class="center flex-row">
+					<form name="landing-array" action="">
+						<button class="landing">Calendar View</button>
+						<button class="landing">Activity View</button>
+						<button class="landing">Energy View</button>
+						<button class="landing">Project View</button>
+					</form>
+				</div>
 			</section>
 			<section class="footer-nav-landing flex-col sticky-bottom">
 				<ul class="flex-row">
-					<li><a href="test.html">Footer 1</a></li>
-					<li><a href="test.html">Footer 2</a></li>
-					<li><a href="test.html">Footer 3</a></li>
+					<li>&copy; 2025 Tasha Fierce under <a href="https://spdx.org/licenses/GPL-3.0-or-later.html">GPL 3.0</a>. </li>
+					<li><a href="https://github.com/tashafierce/time-tree">Github</a></li>
+					<li><a href="help.html">Help</a></li>
 				</ul>
 			</section>
 		</main>
